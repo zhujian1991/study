@@ -1,13 +1,13 @@
 spring:
   profiles:
-    #更换环境
+    #更换环境,引入使用application-local.xml
     active: local
 
   mvc:
     throw-exception-if-no-handler-found: true
   resources:
     add-mappings: false
-
+#变量配置，可以通过代码访问
 demo:
   name: chengxulaoren
   age: 100
