@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68d5e1a9-320c-4423-808e-37c6198ea645" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/zhu/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/zhu/test/Test.class" afterDir="false" />
-    </list>
+    <list default="true" id="68d5e1a9-320c-4423-808e-37c6198ea645" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YEmEiufqvndQVc95gb8gISHWaH" />
@@ -102,8 +103,16 @@
       <option name="presentableId" value="Default" />
       <updated>1582516017781</updated>
       <workItem from="1582516019270" duration="6892000" />
-      <workItem from="1582530519600" duration="345000" />
+      <workItem from="1582530519600" duration="668000" />
     </task>
+    <task id="LOCAL-00001" summary="[save]提交">
+      <created>1582530884908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582530884908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[save]提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="[save]提交" />
   </component>
 </project>
