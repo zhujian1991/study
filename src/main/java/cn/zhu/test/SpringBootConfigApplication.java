@@ -4,8 +4,12 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-// springBoot的统一注解，包括配置的注解@Configuration,自动装载的注解@EnableAutoConfiguration,扫描包的注解@ComponentScan
+ /**
+  * springBoot的统一注解，包括配置的注解@Configuration,自动装载的注解@EnableAutoConfiguration,扫描包的注解@ComponentScan
+  * @author 程序老仁
+  */
 @SpringBootApplication
 @MapperScan("cn.zhu.test.mapper") //mybatis扫f描mapper接口的包路径
 public class SpringBootConfigApplication implements CommandLineRunner {
@@ -20,5 +24,10 @@ public class SpringBootConfigApplication implements CommandLineRunner {
 	public void run(String... strings) throws Exception {
 		System.out.println("程序老仁 添加的特殊启动功能");
 	}
+
+    @RequestMapping("/")
+    String home() {
+        return "Hello World!";
+    }
 
 }
