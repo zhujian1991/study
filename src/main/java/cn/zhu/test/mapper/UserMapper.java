@@ -2,12 +2,13 @@ package cn.zhu.test.mapper;
 
 
 import cn.zhu.test.domain.User;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.HashMap;
 import java.util.List;
 
 
-//@Mapper
+@Mapper
 public interface UserMapper {
     //    @Select("select * from user t_user name = #{name}")
     List<User> likeName(String name);

@@ -1,17 +1,14 @@
 package cn.zhu.test;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RequestMapping;
 
- /**
-  * springBoot的统一注解，包括配置的注解@Configuration,自动装载的注解@EnableAutoConfiguration,扫描包的注解@ComponentScan
-  * @author 程序老仁
-  */
+/**
+ * SpringBootApplication是 springBoot的统一注解，包括配置的注解@Configuration,自动装载的注解@EnableAutoConfiguration,扫描包的注解@ComponentScan
+ * @author 程序老仁
+ */
 @SpringBootApplication
-@MapperScan("cn.zhu.test.mapper") //mybatis扫f描mapper接口的包路径
 public class SpringBootConfigApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
@@ -19,15 +16,11 @@ public class SpringBootConfigApplication implements CommandLineRunner {
 		SpringApplication.run(SpringBootConfigApplication.class, args);
 	}
 
-	// 实现了CommandLineRunner接口，复写了run方法，是程序启动时添加一些特殊的定制功能
+	/**
+	 * 实现了CommandLineRunner接口，复写了run方法，是程序启动时添加一些特殊的定制功能
+	 */
 	@Override
 	public void run(String... strings) throws Exception {
 		System.out.println("程序老仁 添加的特殊启动功能");
 	}
-
-    @RequestMapping("/")
-    String home() {
-        return "Hello World!";
-    }
-
 }

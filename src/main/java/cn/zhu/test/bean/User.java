@@ -3,6 +3,10 @@ package cn.zhu.test.bean;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * User对象，通过配置获得对象属性
+ * @author 程序老仁
+ */
 @Configuration
 @ConfigurationProperties(prefix = "demo")
 public class User {

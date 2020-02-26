@@ -1,0 +1,21 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+.idea/inspectionProfiles/
+.idea/qaplug_profiles.xml
+target/generated-sources/
+target/generated-test-sources/
+target/
+target/classes/application.properties
+target/classes/cn/zhu/test/controller/
+target/classes/cn/zhu/test/domain/
+target/classes/cn/zhu/test/mapper/
+target/classes/cn/zhu/test/service/
+target/classes/mapper/
