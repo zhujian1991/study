@@ -9,11 +9,15 @@
     <!-- 本项目的唯一ID，一个groupId下面可能多个项目，就是靠artifactId来区分的 -->
     <artifactId>springBootTest</artifactId>
     <!-- 打包的机制，如pom,jar, maven-plugin, ejb, war, ear, rar, par，默认为jar -->
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <!-- 本项目目前所处的版本号 -->
     <version>0.0.1-SNAPSHOT</version>
     <!--项目的名称, Maven产生的文档用 -->
     <description>Demo project for Spring Boot</description>
+    <modules>
+        <module>study-dao</module>
+        <module>study-model</module>
+    </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -148,6 +152,11 @@
             <artifactId>lombok</artifactId>
             <version>1.16.20</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>springBootTest</groupId>
+            <artifactId>study-dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

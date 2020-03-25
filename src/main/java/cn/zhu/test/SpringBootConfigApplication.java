@@ -5,9 +5,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * SpringBootApplication是 springBoot的统一注解，包括配置的注解@Configuration,自动装载的注解@EnableAutoConfiguration,扫描包的注解@ComponentScan
+ * @className SpringBootConfigApplication
+ * @description TODO SpringBootApplication是 springBoot的统一注解，包括配置的注解@Configuration,自动装载的注解@EnableAutoConfiguration,扫描包的注解@ComponentScan
  * @author 程序老仁
- */
+ * @date 2020/3/25
+ */   
+
 @SpringBootApplication
 public class SpringBootConfigApplication implements CommandLineRunner {
 
