@@ -1,11 +1,15 @@
 package cn.zhu.test;
 
 import cn.zhu.test.bean.User;
+import cn.zhu.test.dao.StudentDao;
+import cn.zhu.test.entity.StudentEntity;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import java.math.BigDecimal;
 
 // 运行器，代表在什么环境下运行，@RunWith(JUnit4.class)☞JUnit4来运行
 @RunWith(SpringRunner.class)
@@ -14,6 +18,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class Test {
     @Autowired
     private TestRestTemplate template;
+
+    @Autowired
+    private StudentDao dao;
     /*  从配置读取数据
         @Autowired 顾名思义，就是自动装配。其作用是替代Java代码里面的getter/setter与bean属性中的property。
         @Autowired 的原理是什么？
@@ -25,15 +32,27 @@ public class Test {
 
     @org.junit.Test
     public void getHello() throws Exception{
-        System.out.println("程序老仁的getHello入口 +++++++++++++  ");
-        System.out.println("程序老仁配置的姓名："+userDemo.getName());
-        System.out.println("程序老仁配置的年龄："+userDemo.getAge());
+        String  aaa = "15.00";
+        BigDecimal bigDecimal = new BigDecimal(aaa);
 
-        Boolean aaa=  true;
+        System.out.println(bigDecimal);
+        StudentEntity user = new StudentEntity();
 
-        while (aaa){
-            System.out.println("你进来了吗");
-            aaa = false;
+        for (int i = 0; i < 100000 ; i++) {
+            //user.setId(Long.valueOf(i));
+            user.setName("狗子1"+i);
+            user.setHight(i);
+            dao.save(user);
         }
+//        System.out.println("程序老仁的getHello入口 +++++++++++++  ");
+//        System.out.println("程序老仁配置的姓名："+userDemo.getName());
+//        System.out.println("程序老仁配置的年龄："+userDemo.getAge());
+//
+//        Boolean aaa=  true;
+//
+//        while (aaa){
+//            System.out.println("你进来了吗");
+//            aaa = false;
+//        }
     }
 }
