@@ -14,10 +14,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <!--项目的名称, Maven产生的文档用 -->
     <description>Demo project for Spring Boot</description>
-    <modules>
-        <module>study-dao</module>
-        <module>study-model</module>
-    </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -153,11 +149,7 @@
             <version>1.16.20</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>springBootTest</groupId>
-            <artifactId>study-dao</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
     </dependencies>
 
     <build>
