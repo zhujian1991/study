@@ -44,6 +44,8 @@ public class Test {
             user.setHight(i);
             dao.save(user);
         }
+
+
 //        System.out.println("程序老仁的getHello入口 +++++++++++++  ");
 //        System.out.println("程序老仁配置的姓名："+userDemo.getName());
 //        System.out.println("程序老仁配置的年龄："+userDemo.getAge());

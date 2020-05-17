@@ -13,6 +13,11 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.math.BigDecimal;
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.EnumMap;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Pattern;
 
 // 运行器，代表在什么环境下运行，@RunWith(JUnit4.class)☞JUnit4来运行
@@ -27,23 +32,65 @@ public class DemoTest {
 
     @org.junit.Test
     public void getHello() throws Exception{
-        String aaa ="淘宝客退款[123123]";
-        String test="34556";
-        //FileOutputStream fos = new FileOutputStream("D:/sssss.xls");
-        File file = new File("D:/sssss.xls");
-        boolean read = file.canRead();
-
-         FileInputStream fis = new FileInputStream("D:/aaa.txt");
-         FileOutputStream fos = new FileOutputStream("D:/bbb.txt");
+//        String aaa ="淘宝客退款[123123]";
+//        String test="34556";
+//        //FileOutputStream fos = new FileOutputStream("D:/sssss.xls");
+//        File file = new File("D:/sssss.xls");
+//        boolean read = file.canRead();
+//
+//         FileInputStream fis = new FileInputStream("D:/aaa.txt");
+//         FileOutputStream fos = new FileOutputStream("D:/bbb.txt");
                  //如果没有bbb.txt,会创建出一个
+        long xxx = 5999;
 
-         int b;
-         while((b=fis.read())!=-1){
-               fos.write(b);
-           }
-         fis.close();
-         fos.close();
+        long bbb = xxx%3000;
+        long aaa = xxx/3000;
 
+        System.out.println(bbb);
+        System.out.println(aaa);
+
+        HashMap<String,String> map = new HashMap();
+        map.put("1","2");
+        EnumMap enumMap = new EnumMap(map);
+
+        int size1 = enumMap.size();
+        System.out.println(size1);
+
+
+//        int b;
+//         while((b=fis.read())!=-1){
+//               fos.write(b);
+//           }
+//         fis.close();
+//         fos.close();
+//
+//         ArrayList list = new ArrayList();
+//        list.add("1");
+//        list.add("2");
+//        ArrayList aaaaa =new ArrayList();
+//        // 数组大小
+//        int size = 10;
+//        // 定义数组
+//        double[] myList = new double[size];
+//        double[] myList1 = new double[size];
+//        myList[0] = 5.6;
+//        myList[1] = 4.5;
+//        myList[2] = 3.3;
+//        myList[3] = 13.2;
+//        myList[4] = 4.0;
+//        myList[5] = 34.33;
+//        myList[6] = 34.0;
+//        myList[7] = 45.45;
+//        myList[8] = 99.993;
+//        myList[9] = 11123;
+//        // 计算所有元素的总和
+//        double total = 0;
+//        System.out.println(size);
+//        System.arraycopy(myList,2,myList1,1,8);
+//        int len = myList1.length;
+//        for (int i = 0;  i <len; i++) {
+//            System.out.println(myList1[i]);
+//        }
 //        System.out.println(read);
 //        boolean write = file.canWrite();
 //        System.out.println(write);

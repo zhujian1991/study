@@ -17,9 +17,6 @@ public class JpaServiceImlp implements JpaService {
     @Autowired
     StudentDao studentDao;
 
-    @Autowired
-    private DemoRepository demoRepository;
-
     @Override
     public Animal getAnimalById(Integer id) {
         return animalDao.getOne(id);
