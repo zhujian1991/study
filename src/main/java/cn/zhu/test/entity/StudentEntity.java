@@ -1,5 +1,6 @@
 package cn.zhu.test.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
@@ -10,7 +11,8 @@ import javax.persistence.*;
 @DynamicInsert
 @DynamicUpdate
 @Table(name = "student")
-@JsonIgnoreProperties(value={"hibernateLazyInitializer"})
+@TableName(value =" student", schema = "mytest")
+//@JsonIgnoreProperties(value={"hibernateLazyInitializer"})
 public class StudentEntity implements java.io.Serializable {
     private static final long serialVersionUID = -1L;
 

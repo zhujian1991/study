@@ -19,6 +19,6 @@ public class AspectController {
     @GetMapping("/get")
     public String get(Model model) {
         service.login();
-        return "hello，程序老仁";
+        return "hello，程序老仁，这是aspect的调用返回";
     }
 }

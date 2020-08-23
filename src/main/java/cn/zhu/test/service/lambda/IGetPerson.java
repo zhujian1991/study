@@ -1,7 +1,7 @@
 package cn.zhu.test.service.lambda;
 
-import cn.zhu.test.bean.User;
+import cn.zhu.test.entity.UserEntity;
 
 public interface IGetPerson {
-    Boolean getLenth(User user);
+    Boolean getLenth(UserEntity user);
 }

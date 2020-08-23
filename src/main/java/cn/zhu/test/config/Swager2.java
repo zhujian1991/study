@@ -10,6 +10,13 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * description swagger的配置类，配置了就可以通过swagge的页面地址进行访问。
+ * @className Swager2
+ * @author 程序老仁
+ * @date 2020/6/3
+ */   
+
 @Configuration
 @EnableSwagger2
 public class Swager2 {

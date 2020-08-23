@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/hell1o")
     @ResponseBody
-    @ApiOperation(value = "程序老仁",notes = "swagger")
+    @ApiOperation(value = "程序老仁的helloWorld",notes = "swagger")
     public String index(Model model) {
-        return "hello，程序老仁";
+        return "hello，程序老仁，这是hell1o的返回";
     }
 
 }

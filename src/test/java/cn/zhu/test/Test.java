@@ -1,8 +1,7 @@
 package cn.zhu.test;
 
-import cn.zhu.test.bean.User;
-import cn.zhu.test.dao.StudentDao;
 import cn.zhu.test.entity.StudentEntity;
+import cn.zhu.test.jpa.IStudentRepository;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -20,15 +19,13 @@ public class Test {
     private TestRestTemplate template;
 
     @Autowired
-    private StudentDao dao;
+    private IStudentRepository studentRepository;
     /*  从配置读取数据
         @Autowired 顾名思义，就是自动装配。其作用是替代Java代码里面的getter/setter与bean属性中的property。
         @Autowired 的原理是什么？
         　　其实在启动spring IoC时，容器自动装载了一个AutowiredAnnotationBeanPostProcessor后置处理器，
         当容器扫描到@Autowied、@Resource或@Inject时，就会在IoC容器自动查找需要的bean，并装配给该对象的属性
      */
-     @Autowired
-    private User userDemo;
 
     @org.junit.Test
     public void getHello() throws Exception{
@@ -42,7 +39,7 @@ public class Test {
             //user.setId(Long.valueOf(i));
             user.setName("狗子1"+i);
             user.setHight(i);
-            dao.save(user);
+            studentRepository.save(user);
         }
 
 

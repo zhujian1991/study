@@ -1,23 +1,7 @@
 package cn.zhu.test;
 
-import cn.zhu.test.bean.User;
-import cn.zhu.test.dao.StudentDao;
 import org.apache.commons.lang3.StringUtils;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.web.client.TestRestTemplate;
-import org.springframework.test.context.junit4.SpringRunner;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.math.BigDecimal;
-import java.sql.Array;
-import java.util.ArrayList;
-import java.util.EnumMap;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.regex.Pattern;
 
 // 运行器，代表在什么环境下运行，@RunWith(JUnit4.class)☞JUnit4来运行
@@ -29,7 +13,12 @@ public class DemoTest {
         　　其实在启动spring IoC时，容器自动装载了一个AutowiredAnnotationBeanPostProcessor后置处理器，
         当容器扫描到@Autowied、@Resource或@Inject时，就会在IoC容器自动查找需要的bean，并装配给该对象的属性
      */
-
+    @org.junit.Test
+    public void getTest() throws Exception{
+        long a = 0 ;
+        System.out.println(a/200);
+        System.out.println(a%200);
+    }
     @org.junit.Test
     public void getHello() throws Exception{
 //        String aaa ="淘宝客退款[123123]";
@@ -41,20 +30,20 @@ public class DemoTest {
 //         FileInputStream fis = new FileInputStream("D:/aaa.txt");
 //         FileOutputStream fos = new FileOutputStream("D:/bbb.txt");
                  //如果没有bbb.txt,会创建出一个
-        long xxx = 5999;
-
-        long bbb = xxx%3000;
-        long aaa = xxx/3000;
-
-        System.out.println(bbb);
-        System.out.println(aaa);
-
-        HashMap<String,String> map = new HashMap();
-        map.put("1","2");
-        EnumMap enumMap = new EnumMap(map);
-
-        int size1 = enumMap.size();
-        System.out.println(size1);
+//        long xxx = 5999;
+//
+//        long bbb = xxx%3000;
+//        long aaa = xxx/3000;
+//
+//        System.out.println(bbb);
+//        System.out.println(aaa);
+//
+//        HashMap<String,String> map = new HashMap();
+//        map.put("1","2");
+//        EnumMap enumMap = new EnumMap(map);
+//
+//        int size1 = enumMap.size();
+//        System.out.println(size1);
 
 
 //        int b;

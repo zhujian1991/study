@@ -42,7 +42,7 @@ import java.util.NoSuchElementException;
 public class EasyPoiUtil {
     /**
      *@title: 获取地址
-     *@description: TODO 获取相对项目的固定地址文件
+     *@description:  获取相对项目的固定地址文件
      *@author: 721315 zhuyong
      *@date: 2019/11/26 8:39
      *@param: [filePath: 文件地址]
@@ -81,7 +81,7 @@ public class EasyPoiUtil {
 
     /**
      *@title: exportFileExcel
-     *@description: TODO 导出Excel，包括文件名以及表名。创建表头,导出表放到文件里
+     *@description:  导出Excel，包括文件名以及表名。创建表头,导出表放到文件里
      *@author: 721315 zhuyong
      *@date: 2019/12/5 15:12
      * @param list 导出的实体类
@@ -108,7 +108,7 @@ public class EasyPoiUtil {
 
     /**
      *@title: 导出csv文件
-     *@description: TODO 导出csv，包括文件名以及表名。创建表头,导出表放到文件里
+     *@description:  导出csv，包括文件名以及表名。创建表头,导出表放到文件里
      *@author: 721315 zhuyong
      *@date: 2019/12/5 15:12
      * @param list 导出的实体类
@@ -341,7 +341,7 @@ public class EasyPoiUtil {
 
     /**
      *@title:  file 校验
-     *@description: TODO 校验是否是xls或者是xlsx
+     *@description:  校验是否是xls或者是xlsx
      *@author: 721315 zhuyong
      *@date: 2019/11/26 11:55
      *@param: [file:传入文件]
@@ -371,7 +371,7 @@ public class EasyPoiUtil {
 
     /**
      *@title: 得到inputStream
-     *@description: TODO 对异常进行处理
+     *@description:  对异常进行处理
      *@author: 721315 zhuyong
      *@date: 2019/11/26 13:29
      *@param: [file]
@@ -390,7 +390,7 @@ public class EasyPoiUtil {
 
     /**
      *@title: selectThreadNum
-     *@description: TODO 选择每一个线程执行的数据条数
+     *@description:  选择每一个线程执行的数据条数
      *@author: 721315 zhuyong
      *@date: 2019/11/27 19:39
      *@param: [integer: 数据总条数]
@@ -413,7 +413,7 @@ public class EasyPoiUtil {
 
     /**
      *@title: getMultipartFileName
-     *@description: TODO
+     *@description:
      *@author: 721315 zhuyong
      *@date: 2019/12/3 13:50
      *@param: [name]

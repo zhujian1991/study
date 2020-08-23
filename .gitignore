@@ -15,7 +15,6 @@ target/generated-test-sources/
 target/
 target/classes/application.properties
 target/classes/cn/zhu/test/controller/
-target/classes/cn/zhu/test/domain/
 target/classes/cn/zhu/test/mapper/
 target/classes/cn/zhu/test/service/
 target/classes/mapper/

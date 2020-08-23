@@ -1,8 +1,7 @@
 package cn.zhu.test.controller;
-import cn.zhu.test.dao.AnimalDao;
-import cn.zhu.test.entity.Animal;
+import cn.zhu.test.entity.AnimalEntity;
 import cn.zhu.test.entity.StudentEntity;
-import cn.zhu.test.service.JpaService;
+import cn.zhu.test.service.common.JpaService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,11 +23,12 @@ public class JpaController {
      */
     @ApiOperation(value = "获得动物对象",notes = "得到动物表中的json对象")
     @RequestMapping(value = "/{id}",method = RequestMethod.GET)
-    public Animal getAnimal(@PathVariable("id") int id){
+    public AnimalEntity getAnimal(@PathVariable("id") int id){
         return  jpaService.getAnimalById(id);
     }
 
     @GetMapping(value = "/student/{id}")
+    @ApiOperation(value = "获取学生对象",notes = "")
     public StudentEntity getOne(@RequestParam(value = "id", required = false) Long id) {
         return jpaService.getStudentById(id);
     }

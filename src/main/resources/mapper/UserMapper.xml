@@ -1,111 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper
-        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.zhu.test.mapper.UserMapper">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.zhu.test.mapper.IUserDao">
 
-	<!--
-           resultMap是一种很重要的配置结果映射的方法，resultMap的属性：
-               id：必填，并且唯一。
-               type：用于配置查询列所映射到的Java对象类型
-               extends：选填，可以配置当前的resultMap继承自其他的resultMap，属性值为继承resultMap的id
-               autoMapping：选填，用于配置是否启用非映射字段（没有在resultMap中配置的字段）的自动映射功能
-                   该配置可以覆盖全局的autoMappingBehavior配置（！！！针对没有在resultMap中配置的字段）
+    <resultMap id="BaseResultMap" type="cn.zhu.test.entity.UserEntity">
+        <result column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+    </resultMap>
+    <!-- 查询基础字段-->
+    <sql id="Base_Column_List">
+        id,name
+    </sql>
+    <!-- 插入基础字段-->
+    <sql id="Base_Insert_Column_List">
+        name
+    </sql>
+    <!-- 批量插入-->
+    <insert id="insertBatch" parameterType="java.util.List">
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <include refid="Base_Insert_Column_List"/>
+        </trim>
+        values
+        <foreach collection="list" item="item" separator=",">
+            <trim prefix="(" suffix=")" suffixOverrides=",">
+                #{item.name}
+            </trim>
+        </foreach>
+    </insert>
 
-           resultMap包含的标签：
-               <constructor>:配置用构造方法注入结果，包含两个字标签
-                   <idArg>:id参数，标记结果作为id（唯一值），可以帮助提高整体性能
-                   <arg>:注入到构造方法的一个普通结果
-               <id>:id参数，标记结果作为id（唯一值），可以帮助提高整体性能
-               <result>：主导到Java对象属性的普通结果
+    <select id="getAll" resultType="cn.zhu.test.entity.UserEntity">
+        select * from user
+    </select>
 
-               ====================================================
-                                   后面会详细讲解的部分
-               ====================================================
-               <association>:一个复杂的类型关联，许多结果将包装成这种类型
-               <collection>:复杂类型的集合
-               <discriminator>:根据结果值来决定使用哪个结果映射
-               <case>:基于某些值的结果映射
-               ====================================================
-               ====================================================
-
-                  id和result标签包含的属性：
-                   column:从数据库得到的列名（来源于数据库的数据）
-                   property:映射到列结果的属性（来源与resultMap标签type属性指明的对象的属性）
-                   ===================================================================
-                   javaType:如果映射到一个JavaBean，Mybatis通常可以自动的判断属性的类型
-                       如果映射到HashMap，则需要明确的指明javaType。
-                   jdbcType:列对应的数据库类型。JDBC类型仅仅需要对插入、更新、删除操作可能为空
-                       的列进行处理。这是JDBC jdbcType的需要，而不是MyBatis的需要。
-                   typeHandler：使用这个属性可以覆盖默认的类型处理器。这个属性值是类的完全限定
-                       名或者类型别名。
-                   ===================================================================
-                   ===================================================================
-       -->
-	<resultMap id="userMap" type="HashMap">
-		<id property="id" column="id"/>
-		<result property="userName" column="name"/>
-		<result property="userPassword" column="password"/>
-		<result property="userDate" column="date"/>
-		<result property="userAge" column="age"/>
-		<result property="userId" column="id"  />
-		<result property="allUserName" column="user_name" />
-	</resultMap>
-
-	<select   resultMap="userMap" id="allUser">
-		select * from user
-	</select>
-
-    <select parameterType="string" resultType="User" id="likeName">
-		select * from user where name like concat('%',#{name},'%')
-	</select>
-    <select parameterType="long" resultType="User" id="getById">
-		select * from user where id = #{id}
-	</select>
-    <select parameterType="long" resultType="string" id="getNameById">
-		select name from user where id = #{id}
-	</select>
-    <insert parameterType="User" id="save" keyColumn="id"
-					 keyProperty="id" useGeneratedKeys="true">
-		insert into user(name) values(#{name})
-	</insert>
-	<insert parameterType="User" id="add" keyColumn="id"
-			keyProperty="id" useGeneratedKeys="true">
-		INSERT INTO user SET name = #{name},id = #{id};
-	</insert>
-	<insert parameterType="User" id="insert" keyColumn="id"
-			keyProperty="id" useGeneratedKeys="true">
-		INSERT INTO user SET name = #{name},id = #{id};
-	</insert>
-	<!--
-	默认情况下是没有开启缓存的，要开启二级缓存，你需要在你的SQL映射文件中添加一行：
-
-	1.映射语句文件中的所有select语句将会被缓存。
-	2.映射语句文件中的所有insert，update和delete语句会刷新缓存。
-	3.缓存会使用Least Recently Used（LRU，最近最少使用的）算法来收回。
-	4.根据时间表（比如 no Flush Interval，没有刷新间隔），缓存不会以任何时间顺序来刷新。
-	5.缓存会存储列表集合或对象（无论查询方法返回什么）的1024个引用。
-	6.缓存会被视为是 read/write（可读/可写）的缓存，意味着对象检索不是共享的，而且可以安全地被调用者修改，而不干扰其他调用者或线程所做的潜在修改。
-	-->
-	<cache
-			eviction="FIFO"
-			flushInterval="60000"
-			size="512"
-			readOnly="true"
-	/>
-
+    <select id="getAllW" resultType="cn.zhu.test.entity.UserEntity">
+        select * from user
+    </select>
 </mapper>
-<!--<sqlMapConfig>-->
-<!--&lt;!&ndash;cacheModelsEnabled 是否启用SqlMapClient上的缓存机制。建议设为"true" &ndash;&gt;-->
-<!--&lt;!&ndash;enhancementEnabled 是否针对POJO启用字节码增强机制以提升getter/setter的调用效能，避免使用JavaReflect所带来的性能开销。同时，这也为Lazy Loading带来了极大的性能提升。建议设为"true" &ndash;&gt;-->
-<!--&lt;!&ndash;errorTracingEnabled 是否启用错误日志，在开发期间建议设为"true"以方便调试 &ndash;&gt;-->
-<!--<settings-->
-		<!--useStatementNamespaces="true"-->
-		<!--cacheModelsEnabled="true"-->
-		<!--enhancementEnabled="true"-->
-		<!--errorTracingEnabled="true"-->
-<!--/>-->
-<!--<sqlMap resource="sqlmap/marshalBase.xml"/>-->
-<!--<sqlMap resource="sqlmap/sysParam.xml"/>-->
-<!--<sqlMap resource="sqlmap/NTCommon.xml"/>-->
-<!--</sqlMapConfig>-->

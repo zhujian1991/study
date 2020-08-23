@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace= "cn.zhu.test.mapper.IStudentDao">
+
+    <resultMap id="BaseResultMap" type="cn.zhu.test.entity.StudentEntity">
+        <result column="id" property="id" jdbcType="INTEGER"/>
+        <result column="hight" property="hight" jdbcType="INTEGER"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+    </resultMap>
+    <!-- 查询基础字段-->
+    <sql id="Base_Column_List">
+        id,hight,name
+    </sql>
+    <!-- 插入基础字段-->
+    <sql id="Base_Insert_Column_List">
+        hight,name
+    </sql>
+    <!-- 批量插入-->
+    <insert id="insertBatch" parameterType="java.util.List">
+        insert into student
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <include refid="Base_Insert_Column_List"/>
+        </trim>
+        values
+        <foreach collection="list" item="item" separator=",">
+            <trim prefix="(" suffix=")" suffixOverrides=",">
+                #{item.hight},#{item.name}
+            </trim>
+        </foreach>
+    </insert>
+
+    <select id="getAll" resultType="cn.zhu.test.entity.StudentEntity">
+        select * from student
+    </select>
+
+    <select id="getAllW" resultType="cn.zhu.test.entity.StudentEntity">
+        select * from student
+    </select>
+</mapper>

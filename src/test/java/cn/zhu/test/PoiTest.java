@@ -1,14 +1,10 @@
 package cn.zhu.test;
 
 import cn.afterturn.easypoi.excel.ExcelExportUtil;
-import cn.afterturn.easypoi.excel.ExcelImportUtil;
 import cn.afterturn.easypoi.excel.entity.ExportParams;
-import cn.afterturn.easypoi.excel.entity.ImportParams;
 import cn.afterturn.easypoi.excel.entity.params.ExcelExportEntity;
-import cn.afterturn.easypoi.util.PoiPublicUtil;
-import cn.zhu.test.bean.User;
-import cn.zhu.test.dao.StudentDao;
 import cn.zhu.test.entity.StudentEntity;
+import cn.zhu.test.jpa.IStudentRepository;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -35,10 +30,8 @@ public class PoiTest {
         　　其实在启动spring IoC时，容器自动装载了一个AutowiredAnnotationBeanPostProcessor后置处理器，
         当容器扫描到@Autowied、@Resource或@Inject时，就会在IoC容器自动查找需要的bean，并装配给该对象的属性
      */
-     @Autowired
-    private User userDemo;
     @Autowired
-    private StudentDao studentDao;
+    private IStudentRepository studentRepository;
     @org.junit.Test
     public void getHello() throws Exception{
         try {
@@ -48,7 +41,7 @@ public class PoiTest {
             excelentity.setNeedMerge(true);
             entity.add(excelentity);
             entity.add(new ExcelExportEntity("体重", "hight"));
-            List<StudentEntity> all = studentDao.findAll();
+            List<StudentEntity> all = studentRepository.findAll();
             //把我们构造好的bean对象放到params就可以了
             long start = System.currentTimeMillis();
             Workbook workbook = ExcelExportUtil.exportExcel(new ExportParams("测试", "测试"), entity,

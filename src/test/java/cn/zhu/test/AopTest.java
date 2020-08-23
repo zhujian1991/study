@@ -17,9 +17,9 @@ import java.util.HashMap;
 import java.util.regex.Pattern;
 
 
-//// 运行器，代表在什么环境下运行，@RunWith(JUnit4.class)☞JUnit4来运行
+// 运行器，代表在什么环境下运行，@RunWith(JUnit4.class)☞JUnit4来运行
 @RunWith(SpringRunner.class)
-//// springBoot专用于单元测试的注解。
+// springBoot专用于单元测试的注解。
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class AopTest {
     @Autowired

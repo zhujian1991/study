@@ -3,12 +3,13 @@ package cn.zhu.test.test;
 import cn.zhu.test.service.aop.IAopService;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 
 // springBoot专用于单元测试的注解。
-
-//// 运行器，代表在什么环境下运行，@RunWith(JUnit4.class)☞JUnit4来运行
+// 运行器，代表在什么环境下运行，@RunWith(JUnit4.class)☞JUnit4来运行
 //@RunWith(SpringRunner.class)
-//// springBoot专用于单元测试的注解。
+// springBoot专用于单元测试的注解。
 //@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class AopTest {
     @Autowired
@@ -25,6 +26,9 @@ public class AopTest {
         aopService.login();
         System.out.println("---------------");
         aopService.download();
+        ReentrantLock reentrantLock = new ReentrantLock();
+        reentrantLock.lock();
+
     }
 
 }

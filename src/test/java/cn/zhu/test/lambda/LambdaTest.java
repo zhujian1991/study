@@ -1,14 +1,12 @@
 package cn.zhu.test.lambda;
 
-import cn.zhu.test.bean.User;
-import cn.zhu.test.service.LambdaService;
+import cn.zhu.test.entity.UserEntity;
+import cn.zhu.test.service.lambda.LambdaService;
 import cn.zhu.test.service.lambda.IGetPerson;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.math3.exception.MathUnsupportedOperationException;
 
 import java.util.*;
 import java.util.function.*;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -26,30 +24,9 @@ public class LambdaTest {
 //        testArrayList();
 //        testMap();
 //        testStream();
-        testUser();
 
     }
 
-    private void testUser() {
-        User user = new User();
-        user.setAge(3);
-        user.setName("ge");
-        User user1 = new User();
-        user1.setAge(4);
-        user1.setName("ge");
-        User user2 = new User();
-        user2.setAge(5);
-        user2.setName("ge");
-        List<User> list = new ArrayList<>();
-        list.add(user);
-        list.add(user2);
-        list.add(user1);
-
-        int aa = list.stream().map(a ->a.getAge()).reduce((x,y)->x+y).get();
-        System.out.println(aa);
-        Stream<Integer> integerStream = list.stream().map(a -> a.getAge());
-        Integer integer = integerStream.reduce((xx, yy) -> xx + yy).get();
-    }
 
     /**
      * description stream测试
@@ -203,39 +180,39 @@ public class LambdaTest {
         Integer integer = re.get(5, 6);
         System.out.println(integer);
         System.out.println("--------------------------------");
-        User user2 = new User();
-        user2.setAge(22);
-        user2.setName("王子");
-        User user1 = new User();
-        user1.setAge(23);
-        User user3 = new User();
-        user3.setAge(24);
-        user3.setName("皇帝宠妃");
+        UserEntity UserEntity2 = new UserEntity();
+        UserEntity2.setId(22);
+        UserEntity2.setName("王子");
+        UserEntity UserEntity1 = new UserEntity();
+        UserEntity1.setId(23);
+        UserEntity UserEntity3 = new UserEntity();
+        UserEntity3.setId(24);
+        UserEntity3.setName("皇帝宠妃");
 
         IGetPerson iGetPerson = new IGetPerson() {
             @Override
-            public Boolean getLenth(User user) {
-                if (user.getAge() > 23) {
+            public Boolean getLenth(UserEntity UserEntity) {
+                if (UserEntity.getId() > 23) {
                     return true;
                 }
                 return false;
             }
         };
-        System.out.println(iGetPerson.getLenth(user1));
-        System.out.println(iGetPerson.getLenth(user2));
-        System.out.println(iGetPerson.getLenth(user3));
+        System.out.println(iGetPerson.getLenth(UserEntity1));
+        System.out.println(iGetPerson.getLenth(UserEntity2));
+        System.out.println(iGetPerson.getLenth(UserEntity3));
 
         System.out.println("-------------- 2号分割 -------------");
-        IGetPerson iGetPersonLambda = (user -> user.getAge()>23);
-        System.out.println(iGetPersonLambda.getLenth(user1));
-        System.out.println(iGetPersonLambda.getLenth(user2));
-        System.out.println(iGetPersonLambda.getLenth(user3));
+        IGetPerson iGetPersonLambda = (UserEntity -> UserEntity.getId()>23);
+        System.out.println(iGetPersonLambda.getLenth(UserEntity1));
+        System.out.println(iGetPersonLambda.getLenth(UserEntity2));
+        System.out.println(iGetPersonLambda.getLenth(UserEntity3));
         System.out.println("-------------- 3号分割 -------------");
 
-        IGetPerson iGetPersonLambda2 = (user -> (StringUtils.isBlank(user.getName()) ? 0 : user.getName().length())>3);
-        System.out.println(iGetPersonLambda2.getLenth(user1));
-        System.out.println(iGetPersonLambda2.getLenth(user2));
-        System.out.println(iGetPersonLambda2.getLenth(user3));
+        IGetPerson iGetPersonLambda2 = (UserEntity -> (StringUtils.isBlank(UserEntity.getName()) ? 0 : UserEntity.getName().length())>3);
+        System.out.println(iGetPersonLambda2.getLenth(UserEntity1));
+        System.out.println(iGetPersonLambda2.getLenth(UserEntity2));
+        System.out.println(iGetPersonLambda2.getLenth(UserEntity3));
         System.out.println("-------------- 4号分割 -------------");
         // 调用特定方法的get方法，就是调用静态方法
         Supplier<String> s2 = Fun :: getString;
