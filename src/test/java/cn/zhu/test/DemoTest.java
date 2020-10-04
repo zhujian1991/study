@@ -2,6 +2,9 @@ package cn.zhu.test;
 
 import org.apache.commons.lang3.StringUtils;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 import java.util.regex.Pattern;
 
 // 运行器，代表在什么环境下运行，@RunWith(JUnit4.class)☞JUnit4来运行
@@ -15,10 +18,54 @@ public class DemoTest {
      */
     @org.junit.Test
     public void getTest() throws Exception{
-        long a = 0 ;
-        System.out.println(a/200);
-        System.out.println(a%200);
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
+        int x =0 ;
+        HelloWorld helloWorld = new HelloWorld();
+
+        for (int i = 0; i < 10; i++) {
+            x=i;
+            int finalX = x;
+            Future<?> test = executorService.submit(
+                    new Runnable() {
+                        @Override
+                        public void run() {
+                            System.out.println("i:"+ finalX);
+                            helloWorld.add();
+                        }
+                    }
+            );
+        }
+
+//        Object o = test.get();
+//        System.out.println(o.toString());
+
+        Thread.sleep(2000);
+        System.out.println("xxx:"+x);
+        System.out.println("xxxint:"+helloWorld.xx);
+
+        for (int j = 0; j < 10; j++) {
+            int finalJ = j;
+            new Thread() {
+                @Override
+                public void run() {
+                    System.out.println("j:" + finalJ);
+                    helloWorld.add();
+                }
+            }.start();
+        }
+        Thread.sleep(1000);
+        System.out.println("jjj:"+helloWorld.xx);
+
     }
+
+
+    public class  HelloWorld {
+        private  int xx = 0 ;
+        public void add(){
+            xx++;
+        }
+    }
+
     @org.junit.Test
     public void getHello() throws Exception{
 //        String aaa ="淘宝客退款[123123]";
@@ -131,6 +178,7 @@ public class DemoTest {
 //        }
     }
     private String getOrder(String in ,int length){
+
         if(StringUtils.isBlank(in) && in.length()<=length){
             return "";
         }

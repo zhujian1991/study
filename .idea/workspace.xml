@@ -4,95 +4,19 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/lambda/LambdaTest.java" line="136" />
     <bookmark url="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/lambda/LambdaTest.java" line="103" />
     <bookmark url="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/single/MySingleTest.java" line="27" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/StringNum.java" line="57" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68d5e1a9-320c-4423-808e-37c6198ea645" name="Default Changelist" comment="提交:修改数据">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/aop/CommonJoinPointConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/aop/PermissionVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/DbContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/MyAbstractRoutingDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/ReadOnly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/ReadOnlyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/WriteOrReadDatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/MyEnumController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/dto/ReqPagePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/dto/ReqStudentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/entity/AnimalEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/entity/Foods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/entity/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/enumDemo/FoodsCtrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/enumDemo/PizzaDeliveryStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/enumDemo/PizzaDeliverySystemConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/enumDemo/SelectFoodsEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/jpa/IAnimalRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/jpa/IStudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/jpa/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/mapper/IAnimalDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/mapper/IStudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/mapper/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/netty/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/excel/IStudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/excel/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/GenerateMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/GeneratePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/GenerateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/ScanEnumMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/ToolUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AnimalMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/SuanfaTest/SuanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/fastJson/FastJsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/netty/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/StringNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/ChaRu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/MaoPao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/Quick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/bean/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/PermissionVerification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/Swager2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/Swager2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/AspectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/AspectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/ExcelPoiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/ExcelPoiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/JpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/JpaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/dao/AnimalDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/dao/AspectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/dao/AspectDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/dao/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/entity/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/entity/StudentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/entity/StudentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/JpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/JpaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/LambdaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/lambda/LambdaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/aop/impl/AopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/aop/impl/AopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/impl/JpaServiceImlp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/impl/JpaServiceImlp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/impl/LambdaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/lambda/LambdaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/lambda/IGetPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/lambda/IGetPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/test/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/test/AopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/EasyPoiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/EasyPoiUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SpringAOP.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SpringAOP.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/zhu/test/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/AopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/JpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/JpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/impl/JpaServiceImlp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/impl/JpaServiceImlp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cn/zhu/test/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/zhu/test/PoiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/PoiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/zhu/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/zhu/test/lambda/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/zhu/test/lambda/LambdaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/zhu/test/single/MyTestTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-dao/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-dao/src/main/java/com/zhu/cloud/jpa/BaseRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-dao/src/main/java/com/zhu/cloud/jpa/DemoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-model/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-model/src/main/java/com/zhu/cloud/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/zhu/test/SpringbootConfigApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/zhu/test/SpringbootConfigApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/zhu/test/bean/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/zhu/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/zhu/test/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/study-dao/target/" />
@@ -125,122 +49,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExcelPoiController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/ExcelPoiController.java">
+      <file leaf-file-name="StringNum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/StringNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="572">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/JedisTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/DemoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1408">
+              <caret line="74" column="40" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JpaController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/JpaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#976#1030#1" expanded="true" />
-                <element signature="e#1237#1286#1" expanded="true" />
-                <element signature="e#1448#1497#1" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/service/excel/impl/StudentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3433#3450#0" expanded="true" />
-                <element signature="e#3858#3904#1" expanded="true" />
-                <element signature="e#3884#3903#0" expanded="true" />
-                <element signature="e#4010#4056#1" expanded="true" />
-                <element signature="e#4031#4051#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IStudentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/service/excel/IStudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyAbstractRoutingDataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/MyAbstractRoutingDataSource.java">
+      <file leaf-file-name="JpaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/JpaService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-              <folding>
-                <element signature="e#579#687#0" expanded="true" />
-                <element signature="e#579#687#0" expanded="true" />
-              </folding>
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbContextHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/DbContextHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadOnly.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/ReadOnly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadOnlyInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/ReadOnlyInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteOrReadDatabaseConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/WriteOrReadDatabaseConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-554">
-              <caret line="43" column="58" lean-forward="true" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IStudentDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/mapper/IStudentDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file leaf-file-name="JpaServiceImlp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/impl/JpaServiceImlp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterruptedException.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/work/jdk1.8.0_144/src.zip!/java/lang/InterruptedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuanTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/SuanfaTest/SuanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForeMapTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/amazed/ForeMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnumMapTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/amazed/EnumMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -252,8 +150,8 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -304,15 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/zhu/test/mapper/AnimalDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/lambda/LambdaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/RedisController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/RedisTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/DemoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/fastJson/FastJsonTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/zhu/test/dao/RedisDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/zhu/test/dao/AspectDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/impl/JpaServiceImlp.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/PoiTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AnimalMapper.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -355,6 +244,15 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/DbContextHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/WriteOrReadDatabaseConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/StringNum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/MaoPao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/ChaRu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/MaoPao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/Quick.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/Insert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/JpaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/impl/JpaServiceImlp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhu/test/DemoTest.java" />
       </list>
     </option>
   </component>
@@ -386,10 +284,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="35" />
+    <option name="width" value="1555" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectId" id="1YEmEiufqvndQVc95gb8gISHWaH" />
   <component name="ProjectLevelVcsManager">
@@ -401,244 +298,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="ExcelPoiController" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentServiceImpl" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootConfigApplication" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.baomidou:mybatis-plus-core:3.3.2" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.baomidou:mybatis-plus-core:3.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-plus-core-3.3.2.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.baomidou:mybatis-plus-core:3.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-plus-core-3.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.baomidou:mybatis-plus-core:3.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-plus-core-3.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.baomidou:mybatis-plus-core:3.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-plus-core-3.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="BaseMapper" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="MethodProxy" type="1a9f42e2:ClassTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Default Changelist">
           <expand>
@@ -737,6 +396,371 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springBootTest" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springBootTest" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springBootTest" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.zhu.test" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springBootTest" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.zhu.test" type="1f31426a:PackageElementNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springBootTest" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.zhu.test" type="1f31426a:PackageElementNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
+              <item name="AopTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="amazed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="DemoTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="InterruptedException" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractExecutorService" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="Executor" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="ExecutorService" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="ch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="ch" type="462c0819:PsiDirectoryNode" />
+              <item name="AsynchronousChannelGroupImpl" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.3.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-core-3.3.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-core-3.3.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-core-3.3.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-common:4.1.36.Final" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-common:4.1.36.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-common-4.1.36.Final.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-common:4.1.36.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-common-4.1.36.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-common:4.1.36.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-common-4.1.36.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-common:4.1.36.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-common-4.1.36.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractEventExecutor" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.1.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.1.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.1.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.1.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="JpaRepository" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -768,35 +792,6 @@
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="AopTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springBootTest" type="58d84e3e:PackageViewProjectNode" />
-              <item name="springBootTest" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="58d84e3e:PackageViewProjectNode" />
-              <item name="springBootTest" type="616d4139:PackageViewModuleNode" />
-              <item name="cn.zhu.test" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="58d84e3e:PackageViewProjectNode" />
-              <item name="springBootTest" type="616d4139:PackageViewModuleNode" />
-              <item name="cn.zhu.test" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="springBootTest" type="58d84e3e:PackageViewProjectNode" />
-              <item name="springBootTest" type="616d4139:PackageViewModuleNode" />
-              <item name="cn.zhu.test" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
               <item name="AopTest" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
@@ -863,43 +858,53 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootConfigApplication">
-    <configuration name="GenerateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhu.test.utils.GenerateMain" />
+  <component name="RunManager" selected="JUnit.DemoTest.getTest">
+    <configuration name="ChaRu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhu.test.leecode.sort.ChaRu" />
       <module name="springBootTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zhu.test.utils.*" />
+          <option name="PATTERN" value="cn.zhu.test.leecode.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhu.test.leecode.sort.Insert" />
+      <module name="springBootTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhu.test.leecode.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MaoPao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhu.test.leecode.sort.MaoPao" />
+      <module name="springBootTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhu.test.leecode.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhu.test.leecode.StringNum" />
+      <module name="springBootTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhu.test.leecode.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="AopTest.getHello1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springBootTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zhu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.zhu.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.zhu.test.AopTest" />
-      <option name="METHOD_NAME" value="getHello1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="DemoTest.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springBootTest" />
@@ -924,29 +929,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FastJsonTest.getHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springBootTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zhu.test.fastJson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.zhu.test.fastJson" />
-      <option name="MAIN_CLASS_NAME" value="cn.zhu.test.fastJson.FastJsonTest" />
-      <option name="METHOD_NAME" value="getHello" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -954,29 +936,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="cn.zhu.test.resource in springBootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springBootTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zhu.test.resource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.zhu.test.resource" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1042,19 +1001,19 @@
     <list>
       <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Spring Boot.SpringBootConfigApplication" />
-      <item itemvalue="Application.GenerateMain" />
-      <item itemvalue="JUnit.AopTest.getHello1" />
+      <item itemvalue="Application.StringNum" />
+      <item itemvalue="Application.MaoPao" />
+      <item itemvalue="Application.ChaRu" />
+      <item itemvalue="Application.Insert" />
       <item itemvalue="JUnit.DemoTest.getTest" />
-      <item itemvalue="JUnit.FastJsonTest.getHello" />
-      <item itemvalue="JUnit.cn.zhu.test.resource in springBootTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.cn.zhu.test.resource in springBootTest" />
-        <item itemvalue="Application.GenerateMain" />
-        <item itemvalue="JUnit.FastJsonTest.getHello" />
         <item itemvalue="JUnit.DemoTest.getTest" />
-        <item itemvalue="JUnit.AopTest.getHello1" />
+        <item itemvalue="Application.Insert" />
+        <item itemvalue="Application.ChaRu" />
+        <item itemvalue="Application.MaoPao" />
+        <item itemvalue="Application.StringNum" />
       </list>
     </recent_temporary>
   </component>
@@ -1133,6 +1092,16 @@
       <workItem from="1593042809763" duration="3349000" />
       <workItem from="1593157972600" duration="731000" />
       <workItem from="1593913087486" duration="12572000" />
+      <workItem from="1598172319777" duration="3252000" />
+      <workItem from="1598536200065" duration="1054000" />
+      <workItem from="1598706885929" duration="1239000" />
+      <workItem from="1598756585398" duration="669000" />
+      <workItem from="1599143360192" duration="1408000" />
+      <workItem from="1599357588263" duration="7252000" />
+      <workItem from="1599959137664" duration="304000" />
+      <workItem from="1600512351412" duration="577000" />
+      <workItem from="1600580964414" duration="3198000" />
+      <workItem from="1601771459180" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="[save]提交">
       <created>1582530884908</created>
@@ -1183,43 +1152,50 @@
       <option name="project" value="LOCAL" />
       <updated>1589683093650</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交:修改数据">
+      <created>1598172738509</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598172738509</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AopTest - 2020.05.17 at 13h 04m 58s.xml">
-      <configuration name="AopTest" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 41m 18s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AopTest_getHello1 - 2020.05.17 at 13h 05m 44s.xml">
-      <configuration name="AopTest.getHello1" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 41m 59s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AopTest_getHello1 - 2020.05.17 at 13h 06m 13s.xml">
-      <configuration name="AopTest.getHello1" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 42m 16s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AopTest_getHello1 - 2020.05.17 at 13h 07m 21s.xml">
-      <configuration name="AopTest.getHello1" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 43m 05s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AopTest_getHello1 - 2020.05.17 at 13h 08m 20s.xml">
-      <configuration name="AopTest.getHello1" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 43m 19s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FastJsonTest_getHello - 2020.05.30 at 10h 57m 01s.xml">
-      <configuration name="FastJsonTest.getHello" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 45m 09s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FastJsonTest_getHello - 2020.05.30 at 10h 59m 23s.xml">
-      <configuration name="FastJsonTest.getHello" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 45m 23s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FastJsonTest_getHello - 2020.05.30 at 11h 00m 05s.xml">
-      <configuration name="FastJsonTest.getHello" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 46m 09s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="cn_zhu_test_resource_in_springBootTest - 2020.05.31 at 22h 55m 16s.xml">
-      <configuration name="cn.zhu.test.resource in springBootTest" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 46m 21s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="cn_zhu_test_resource_in_springBootTest - 2020.05.31 at 22h 55m 47s.xml">
-      <configuration name="cn.zhu.test.resource in springBootTest" configurationId="JUnit" />
+    <history-entry file="DemoTest_getTest - 2020.09.20 at 14h 46m 29s.xml">
+      <configuration name="DemoTest.getTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175844000" />
+    <option name="totallyTimeSpent" value="195154000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1231,7 +1207,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1551" height="839" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50435364" side_tool="true" weight="0.41297936" />
@@ -1240,34 +1216,34 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50073856" side_tool="true" weight="0.33042896" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49564636" visible="true" weight="0.41297936" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49564636" weight="0.44608566" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32890856" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49733475" weight="0.4941003" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32905984" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49932885" weight="0.18803419" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.64697194" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53471196" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.5147493" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.90251106" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30341595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49926144" visible="true" weight="0.2782516" />
       <window_info anchor="right" id="Bean Validation" order="12" weight="0.3297587" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32791728" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32791728" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="JSF" order="5" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Module Dependencies" order="11" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49733475" weight="0.49335304" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32905984" />
-      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32791728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -1299,9 +1275,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[save]提交" />
     <MESSAGE value="提交：注释修改" />
-    <MESSAGE value="提交:修改数据" />
     <MESSAGE value="提交:新修改基础版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交:新修改基础版本" />
+    <MESSAGE value="提交:修改数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交:修改数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1331,7 +1307,7 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1339,146 +1315,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/ScanEnumMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5649">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/StringLocalUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/utils/ToolUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11781">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2.jar!/com/baomidou/mybatisplus/core/metadata/IPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/AopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/SuanfaTest/SuanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="docComment;method#getHello#0;class#SuanTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/test/AopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc;n#AopTest#0" />
-            <element signature="docComment;method#getHello1#0;class#AopTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/netty/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/netty/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/Swager2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/dao/RedisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/dao/AspectDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AnimalMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SpringAOP.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/SpringBootConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1500,24 +1336,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/JpaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1595,14 +1417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1118#1137#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1215#1235#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1610,11 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#763#783#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1627,28 +1436,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/ReadOnly.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/WriteOrReadDatabaseConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-554">
-          <caret line="43" column="58" lean-forward="true" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="594">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/ReadOnlyInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="308">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1657,71 +1460,228 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/MyAbstractRoutingDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="330">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="e#579#687#0" expanded="true" />
-            <element signature="e#579#687#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/config/db/DbContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/mapper/IStudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
+        <state relative-caret-position="396">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/ExcelPoiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#976#1030#1" expanded="true" />
-            <element signature="e#1237#1286#1" expanded="true" />
-            <element signature="e#1448#1497#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/service/excel/IStudentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="660">
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/service/excel/impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
+        <state relative-caret-position="1716">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3433#3450#0" expanded="true" />
-            <element signature="e#3858#3904#1" expanded="true" />
-            <element signature="e#3884#3903#0" expanded="true" />
-            <element signature="e#4010#4056#1" expanded="true" />
-            <element signature="e#4031#4051#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/lambda/LambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/ChaRu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/MaoPao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="55" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/Quick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/ExcelPoiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1249#1298#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/work/jdk1.8.0_144/jre/lib/rt.jar!/sun/nio/ch/AsynchronousChannelGroupImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="230" column="22" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/work/jdk1.8.0_144/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/work/jdk1.8.0_144/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.36.Final/netty-common-4.1.36.Final.jar!/io/netty/util/concurrent/AbstractEventExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/work/jdk1.8.0_144/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+          <folding>
+            <element signature="e#9609#9610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/sort/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/SuanfaTest/SuanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/amazed/ForeMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/amazed/EnumMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/leecode/StringNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/JedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/work/jdk1.8.0_144/src.zip!/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/impl/JpaServiceImlp.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/controller/JpaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/zhu/test/service/common/JpaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/zhu/test/DemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="74" column="40" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
         </state>
       </provider>
     </entry>
