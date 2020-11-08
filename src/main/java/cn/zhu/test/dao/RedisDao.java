@@ -13,17 +13,12 @@ public class RedisDao {
 
     public void setKey(String key,String value){
         ValueOperations<String, String> stringStringValueOperations = redisTemplate.opsForValue();
-        stringStringValueOperations.set(key,"zhuyong");
-//        ListOperations<String, String> stringStringListOperations = redisTemplate.opsForList();
-        System.out.println("已经执行完成设置值");
-//        stringStringListOperations.set(key,1,value);
+        stringStringValueOperations.set(key,value);
+        System.out.println("已经执行完成设置值："+value);
     }
 
     public String getValue (String demo){
         ValueOperations<String, String> string1 = redisTemplate.opsForValue();
         return string1.get(demo);
-//        ListOperations<String, String> stringStringListOperations = redisTemplate.opsForList();
-//        String a = stringStringListOperations.index(demo, 1);
-//        return a;
     }
 }

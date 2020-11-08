@@ -17,7 +17,13 @@ public class RedisTest {
     public void setRedisDao() {
         //redisDao.setKey("zhu","jian");
         String zhu = redisDao.getValue("zhu");
+        System.out.println(zhu);
+    }
 
+    @Test
+    public void getRedis() {
+        redisDao.setKey("zhu","jian");
+        String zhu = redisDao.getValue("zhu");
         System.out.println(zhu);
     }
 }
